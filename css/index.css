@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+
+
+
+.global-nav {
+	height: 44px;
+}
+
+.local-nav {
+	height: 52px;
+	border-bottom: 1px solid #ddd;
+}
+
+.global-nav-links,
+.local-nav-links {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.global-nav-links {
+	justify-content: space-between;
+}
+
+.product-name {
+	margin-right: auto;
+	font-size: 1.4rem;
+	font-weight: 900;
+}
+
+
+.local-nav-links a:not(.product-name) {
+	margin-left: 2em;
+	font-size: 0.8rem;
+}
+
+
+
+
+
