@@ -6,6 +6,8 @@
 html {
 	line-height: 1.2;
 	word-wrap: break-word;	
+	font-size: 14px;
+	font-family: 'Apple SD Gothic Neo', Roboto, 'Noto Sans KR', NanumGothic, 'Malgun Gothic'
 }
 body {
 	-webkit-font-smoothing: antialiased;
