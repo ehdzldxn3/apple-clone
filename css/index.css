@@ -5,6 +5,10 @@
 
 
 .global-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
 	height: 44px;
 	padding: 0 1rem;
 }
@@ -13,6 +17,10 @@
 	height: 52px;
 	border-bottom: 1px solid #ddd;
 	padding: 0 1rem;
+	position: absolute;
+	top: 45px;
+	left: 0;
+	width: 100%;
 }
 
 .global-nav-links,
@@ -129,6 +137,27 @@
 	font-size: 1.5rem;
 }
 
+.sticky-elem {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#show_scene_0 #scroll_section_0 .sticky-elem,
+#show_scene_1 #scroll_section_1 .sticky-elem,
+#show_scene_2 #scroll_section_2 .sticky-elem,
+#show_scene_3 #scroll_section_3 .sticky-elem {
+	display: block;
+}
+
+
+
+
+
+
+/* 핸드폰 화면 */
 @media (min-width : 1024px) {
 	#scroll_section_0 h1 {
 		font-size: 9vw;
