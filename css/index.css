@@ -57,12 +57,14 @@
 	text-align: center;
 }
 .main-message {
+	/* opacity: 0; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 3em;
 	font-size: 2.5rem;
 	margin: 5px 0;
+	top: 35vh;
 }
 
 .main-message p {
@@ -73,6 +75,16 @@
 
 #scroll_section_2 .main-message {
 	font-size: 3.5rem;
+}
+
+#scroll_section_2 #section_2_2 {
+	top: 10%;
+	left: 40%;
+}
+
+#scroll_section_2 #section_2_3 {
+	top: 15%;
+	left: 45%;
 }
 
 .main-message small {
@@ -97,8 +109,9 @@
 }
 
 .desc-message {
+	width: 45%;
 	font-weight: bold;
-	width: 50%;
+	opacity: 0;
 }
 
 .pin {
@@ -140,7 +153,6 @@
 .sticky-elem {
 	display: none;
 	position: fixed;
-	top: 0;
 	left: 0;
 	width: 100%;
 }
@@ -185,6 +197,15 @@
 	}
 	.canvas-caption {
 		font-size: 2rem;
+	}
+
+	#scroll_section_2 #section_2_2 {
+		top: 20%;
+		left: 53%;
+	}
+	
+	#scroll_section_2 #section_2_3 {
+		left: 55%;
 	}
 }
 
