@@ -19,8 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 msg4 : document.getElementById('section_0_4'),
             },
             values : {
+                
                 msg1_opacity_in : [0, 1, {start: 0.1, end: 0.2}],
                 msg1_opacity_out : [1, 0, {start: 0.25, end: 0.3}],
+
                 msg1_translateY_in : [20, 0, {start: 0.1, end:0.2}],
                 msg1_translateY_out : [0, -20, {start: 0.25, end: 0.3}],
 
@@ -133,12 +135,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const objs = sceneInfo[currentScene].objs
         const values = sceneInfo[currentScene].values
+
         const currentY = scrollY - prevScrollHeight
+
         //현재 씬의 스크롤 높이
         const scrollHeight = sceneInfo[currentScene].scrollHeight;
         const scrollRatio = currentY / scrollHeight
 
         
+
         switch(currentScene) {
             case 0:
 
@@ -233,6 +238,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let rv = 0;
 
         //현재 스크롤에서 스크롤된 비율 
+
         const scrollY = sceneInfo[currentScene].scrollHeight;
         const scrollRatio = currentY / scrollY;
         
